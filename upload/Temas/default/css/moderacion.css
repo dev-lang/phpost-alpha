@@ -1,0 +1,25 @@
+/* ADMIN */
+#admin_menu li{
+    padding-left: 22px;
+    background-position: 2px center;
+    background-repeat: no-repeat;
+}
+#admin_menu li a{
+    display: block;
+}
+li#a_main {background-image: url(../images/icons/robot.png);}
+li#a_posts {background-image: url(../images/icons/posts.png);}
+li#a_mpreport {background-image: url(../images/icons/spam.png);}
+li#a_users {background-image: url(../images/icons/users.png);}
+li#a_banusers {background-image: url(../images/icons/user-ban.png);}
+
+#reglas li{
+    background: url(../images/icons/arrow.png) no-repeat left 6px;
+    padding-left: 12px;
+}
+
+.admin_table {border:1px solid #ddd; border-width:1px 0 0 1px;}
+.admin_table thead {background:#F4F4F4}
+.admin_table th, .admin_table td {padding:3px 4px;border:1px solid #ddd; border-width:0px 1px 1px 0px; vertical-align:middle; text-align:center}
+
+.admin_actions a{margin-right:5px;}
